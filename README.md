@@ -1,8 +1,3 @@
-# Clio In/Out Board skeleton
-
-Feel free to alter `config/database.yml` to suit your development
-environment, and to add to the `Gemfile` any gems that you find helpful.
-
 ## Features to Add
 
 ### Asynchronous updates
@@ -42,16 +37,3 @@ This branch contains a migration
 destroy any existing data in those columns. Alter this migration to ensure
 that, if the database was full of data before the migration, all data would
 still be intact afterwards.
-
-## Additional Questions to Answer
-
-Please include your answers in a text file with the project.
-
-1. Notice that, in the finished project, the IP addresses are stored as
-integers in the DB. What are the pros and cons of this approach, compared
-to storing the IP addresses as strings?
-
-2. Are there any security issues present in the app itself? (No need to
-mention security vulnerabilities within external gems.) List any security
-issues you found, and how to fix them. Also list any potential security
-issues that you investigated which you believe the site to be free of.
